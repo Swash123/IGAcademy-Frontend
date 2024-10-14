@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IG_Acedemy</title>
+    <link
+      rel="stylesheet"
+      href="public/vendor/bootstrap/css/bootstrap-grid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="public/vendor/bootstrap/css/bootstrap-reboot.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="public/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Owl Carousel Core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <!-- Owl Carousel Theme CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- jQuery (necessary for Owl Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/public/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Desktop navigation -->
+    <div class="nav py-2 desktop-navigation">
+      <div class="logo-container">
+        <img src="public/images/IdeaGen_Logo.png" alt="ig-acedemy-logo" />
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Level <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="dropdown">
+            <li>
+              <a href="#" class="d-flex justify-content-between w-100 px-2"
+                >School <i class="fa-solid fa-angle-right"></i
+              ></a>
+              <ul class="dropdown-submenu">
+                <li><a href="#">Class 8</a></li>
+                <li><a href="#">Class 9</a></li>
+                <li><a href="#">Class 10</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="d-flex justify-content-between w-100 px-2"
+                >+2 <i class="fa-solid fa-angle-right"></i
+              ></a>
+              <ul class="dropdown-submenu">
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Management</a></li>
+                <li><a href="#">Humanities</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="d-flex justify-content-between w-100 px-2"
+                >Batchlor</a
+              >
+              <ul class="dropdown-submenu">
+                <li><a href="#">BCA</a></li>
+                <li><a href="#">BBM</a></li>
+                <li><a href="#">BIM</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="d-flex justify-content-between w-100 px-2"
+                >Master</a
+              >
+              <ul class="dropdown-submenu">
+                <li><a href="#">MCA</a></li>
+                <li><a href="#">MIT</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Tutor</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="login-container">
+        <div class="btn-container">
+          <div class="login-btn">Call for Tutor</div>
+          <div class="login-btn">Apply fot Tutor</div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Deskotop Navigation -->
+
+    <!-- Mobile Nobigation -->
+    <div class="nav mobile-navigation py-2 px-4">
+      <div class="logo-container">
+        <img src="public/images/IdeaGen_Logo.png" alt="ig-acedemy-logo" />
+      </div>
+      <div class="menu-toggle" id="menuToggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <nav id="mobileMenu" class="mobile-menu">
+        <div class="menu-header">
+          <div class="logo-container">
+            <img src="public/images/IdeaGen_Logo.png" alt="ig-acedemy-logo" />
+          </div>
+          <div class="close-menu" id="closeMenu">&times;</div>
+        </div>
+        <div class="tab-buttons">
+          <div class="tab-btn active" data-target="menu-content">Menu</div>
+          <div class="tab-btn" data-target="info-content">Info</div>
+        </div>
+        <div class="tab-content">
+          <!-- Menu Content -->
+          <div id="menu-content" class="tab-panel active">
+            <ul class="menu-items">
+              <li class="has-submenu">
+                <a href="javascript:void(0)">Pages <span>+</span></a>
+                <ul class="submenu">
+                  <li class="has-submenu-child">
+                    <a href="javascript:void(0)">About <span>+</span></a>
+                    <ul class="submenu-child">
+                      <li><a href="#">About One</a></li>
+                      <li><a href="#">About Two</a></li>
+                      <li><a href="#">About Three</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Staff</a></li>
+                  <li><a href="#">Event</a></li>
+                </ul>
+              </li>
+              <!-- Other Menu Items -->
+            </ul>
+          </div>
+
+          <!-- Info Content (this can be any static content you want to display) -->
+          <div id="info-content" class="tab-panel">
+            <div class="row pb-3 align-items-center">
+                <i class="col-2 footer-icon-contact fa-solid fa-location-dot"></i
+                ><span class="col-10 footer-contact address"
+                  >203 Fake St. Mountain View, San Francisco, California,
+                  USA</span
+                >
+              </div>
+              <div class="row pb-3 align-items-center">
+                <i class="col-2 footer-icon-contact fa-solid fa-phone"></i>
+                <span class="col-10 footer-contact phone">+2 392 3929 210</span>
+              </div>
+              <div class="row pb-3 align-items-center">
+                <i class="col-2 footer-icon-contact fa-solid fa-envelope"></i>
+                <span class="col-10 footer-contact email">
+                  info@yourdomain.com</span
+                >
+              </div>
+              <div class="social-media d-flex gap-3 align-items-center">
+                <a href="#"
+                  ><i class="social-icon fa-brands fa-facebook footer-icon"></i
+                ></a>
+                <a href="#"
+                  ><i class="social-icon fa-brands fa-instagram footer-icon"></i
+                ></a>
+                <a href="#"
+                  ><i class="social-icon fa-brands fa-twitter footer-icon"></i
+                ></a>
+                <a href="#"
+                  ><i class="social-icon fa-brands fa-linkedin footer-icon"></i
+                ></a>
+              </div>
+              <div class="btn-container">
+                <div class="login-btn">Call for Tutor</div>
+                <div class="login-btn">Apply fot Tutor</div>
+              </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+
+    <!-- slider Section -->
+    <div class="slider-wrapper">
+      <div class="slider-content">
+        <div class="container">
+          <div class="row">
+            <div class="right-content col-lg-6 col-md-12" data-aos="fade-right">
+              <h1 class="slider-title">
+                Enhancing Learning with
+                <span class="underline"> IG Academy.</span>
+              </h1>
+              <p class="tagline">Your future, our responsibility</p>
+            </div>
+
+            <div class="left-content col-lg-6 col-md-12" data-aos="fade-left">
+              <div class="form-box">
+                <form action="#" class="appointment w-100">
+                  <div class="col-12 py-2">
+                    <div class="form-group">
+                      <label for="">Location</label>
+                      <input
+                        type="text"
+                        name="location"
+                        class="form-control"
+                        id="location"
+                        placeholder="Enter Location"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 py-2">
+                    <div class="form-group">
+                      <label for="">Level</label>
+                      <input
+                        type="text"
+                        name="level"
+                        class="form-control"
+                        id="level"
+                        placeholder="Enter level (School, +2, Batchlor, Master)"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 py-2">
+                    <div class="form-group">
+                      <label for="Subject">Select Subject</label>
+                      <input
+                        type="text"
+                        name="subject"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Enter Subject"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-12 py-2">
+                    <div
+                      class="btn-group form-group d-flex justify-content-center gap-5"
+                    >
+                      <input
+                        type="button"
+                        id="Tutor"
+                        value="Search Tutor"
+                        class="btn"
+                      />
+
+                      <input
+                        type="button"
+                        id="Student"
+                        value="Search Student"
+                        class="btn"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="owl-carousel owl-theme slider-section">
+        <div class="item">
+          <img src="/public/images/slider-01.jpg" alt="Image 1" />
+        </div>
+        <div class="item">
+          <img src="/public/images/slider-02.jpg" alt="Image 2" />
+        </div>
+        <div class="item">
+          <img src="/public/images/slider-03.jpg" alt="Image 3" />
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <!-- End of slider section  -->
+
+    <!-- Service Section -->
+    <section class="service-section">
+      <div class="container">
+        <h2 class="heading" data-aos="fade-up">What <span class="underline">We Offer</span></h2>
+        <div class="row py-5 card-contains">
+          <a
+            href="#"
+            class="card-container col-12 col-md-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos="fade-up"
+          >
+            <div class="icon-container pb-2" >
+              <img src="/public/images/home-tuturing.png" alt="icon 1" />
+            </div>
+            <h3 class="title pb-2">Home Tutoring</h3>
+            <div class="summary">
+              His exquisite sincerity education shameless ten earnestly
+              breakfast. Scale began quiet up short wrong in Personal attention.
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="card-container col-12 col-md-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+          >
+            <div class="icon-container pb-2">
+              <img src="/public/images/02.png" alt="icon 1" />
+            </div>
+            <div class="title pb-2">Online Tutoring</div>
+            <div class="summary">
+              His exquisite sincerity education shameless ten earnestly
+              breakfast. Scale began quiet up short wrong in Personal attention.
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="card-container col-12 col-md-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+          >
+            <div class="icon-container pb-3">
+              <img src="/public/images/03.png" alt="icon 1" />
+            </div>
+            <div class="title pb-2">Group Tutoring</div>
+            <div class="summary">
+              His exquisite sincerity education shameless ten earnestly
+              breakfast. Scale began quiet up short wrong in Personal attention.
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="card-container col-12 col-md-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+          >
+            <div class="icon-container pb-2">
+              <img src="/public/images/04.png" alt="icon 1" />
+            </div>
+            <div class="title pb-2">Online Tutoring</div>
+            <div class="summary">
+              His exquisite sincerity education shameless ten earnestly
+              breakfast. Scale began quiet up short wrong in Personal attention.
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="card-container col-12 col-md-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+          >
+            <div class="icon-container pb-2">
+              <img src="/public/images/05.png" alt="icon 1" />
+            </div>
+            <div class="title pb-2">Online Tutoring</div>
+            <div class="summary">
+              His exquisite sincerity education shameless ten earnestly
+              breakfast. Scale began quiet up short wrong in Personal attention.
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="card-container col-12 col-md-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+          >
+            <div class="icon-container pb-2">
+              <img src="/public/images/home-tuturing.png" alt="icon 1" />
+            </div>
+            <div class="title pb-2">Online Tutoring</div>
+            <div class="summary">
+              His exquisite sincerity education shameless ten earnestly
+              breakfast. Scale began quiet up short wrong in Personal attention.
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="tl-14-cta-vectors">
+        <img
+          src="https://codebasket.xyz/template/talim/dark/assets/images/tl-14/vector-1.png"
+          alt="Vector"
+        />
+        <img
+          src="https://codebasket.xyz/template/talim/dark/assets/images/tl-14/vector-2.png"
+          alt="Vector"
+        />
+        <img
+          src="https://codebasket.xyz/template/talim/dark/assets/images/tl-14/vector-1.png"
+          alt="Vector"
+        />
+        <img
+          src="https://codebasket.xyz/template/talim/dark/assets/images/tl-14/vector-2.png"
+          alt="Vector"
+        />
+        <img
+          src="https://codebasket.xyz/template/talim/dark/assets/images/tl-14/vector-3.png"
+          alt="Vector"
+        />
+        <img
+          src="https://codebasket.xyz/template/talim/dark/assets/images/tl-14/vector-3.png"
+          alt="Vector"
+        />
+      </div>
+    </section>
+    <!-- End of Service Section -->
+
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="container">
+        <div class="row about-contains">
+          <div class="about-left col-12 col-md-6" data-aos="fade-right">
+            <div class="img-container">
+              <img src="public/images/about-img.webp" alt="about-img" />
+            </div>
+          </div>
+          <div class="about-right col-12 col-lg-6 col-md-12 px-5" data-aos="fade-left">
+            <div class="tagline">
+              <li>Who are we?</li>
+            </div>
+            <h2 class="big-title">
+              Welcome to IG Acedemy. One of the best partner for online tutor
+            </h2>
+            <div class="summary">
+              Mauris sit amet lacinia est, vitae tristique metus. Nulla
+              facilisi. Mauris tempor nibh vitae pulvinar ultricies. Sed
+              malesuada placerat metus. Vivamus sagittis arcu elit semper, eget
+              varius turpis posuere.
+            </div>
+            <div class="feature-section my-3">
+              <div class="feature-container">
+                <div class="row">
+                  <div class="features col-6">+ Admission and records</div>
+                  <div class="features col-6">+ Admission and records</div>
+                  <div class="features col-6">+ Admission and records</div>
+                  <div class="features col-6">+ Admission and records</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="facts-and-figure-container">
+              <div class="row">
+                <div class="fact-contains col-md-6 col-12">
+                  <span class="fact">23+</span>Years Experience
+                </div>
+                <div class="fact-contains col-md-6 col-12">
+                  <span class="fact">23+</span>Years Experience
+                </div>
+                <div class="fact-contains col-md-6 col-12">
+                  <span class="fact">23+</span>Years Experience
+                </div>
+                <div class="fact-contains col-md-6 col-12">
+                  <span class="fact">23+</span>Years Experience
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of about section -->
+
+    <!-- subject section -->
+    <section class="subject-section">
+      <div class="container">
+        <h2 class="heading text-start">
+          <span class="underline" data-aos="fade-up">Find Online Tutor</span> on any Field
+        </h2>
+        <div class="row Subject-contains">
+          <a href="#" class="subject-container col-12 col-md-4 col-lg-3" data-aos="fade-up">
+            <h3 class="title">Science</h3>
+          </a>
+          <a href="#" class="subject-container col-12 col-md-4 col-lg-3" data-aos="fade-up">
+            <h3 class="title">Humanities</h3>
+          </a>
+          <a href="#" class="subject-container col-12 col-md-4 col-lg-3" data-aos="fade-up">
+            <h3 class="title">Managment</h3>
+          </a>
+          <a href="#" class="subject-container col-12 col-md-4 col-lg-3" data-aos="fade-up">
+            <h3 class="title">Law</h3>
+          </a>
+          <a href="#" class="subject-container col-12 col-md-4 col-lg-3" data-aos="fade-up">
+            <h3 class="title">BCA</h3>
+          </a>
+          <a href="#" class="subject-container col-12 col-md-4 col-lg-3" data-aos="fade-up">
+            <h3 class="title">BBM</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end of subject section -->
+
+    <!-- guide section -->
+    <section class="guide-section">
+      <div class="container">
+        <h2 class="heading" data-aos="fade-up">How it <span class="underline">Works</span></h2>
+        <div class="tab-buttons-guide">
+          <div class="tab-btn-guide active" data-aos="fade-up" data-target="tutor-content">
+            For Tutor
+          </div>
+          <div class="tab-btn-guide" data-target="student-content" data-aos="fade-up">
+            For Student
+          </div>
+        </div>
+        <div class="tab-content-guide" data-aos="fade-up">
+          <div id="tutor-content" class="tab-panel-guide active">
+            <div class="row">
+              <div class="guide-card col-12 col-md-6 col-lg-4">
+                <div class="icon-container">
+                  <img src="public/images/tutor-1.png" alt="tut-1" />
+                </div>
+                <div class="title pb-2">Send Us Inquiry</div>
+                <div class="summary">
+                  His exquisite sincerity education shameless ten earnestly
+                  breakfast. Scale began quiet up short wrong in Personal
+                  attention.
+                </div>
+              </div>
+
+              <div class="guide-card col-12 col-md-6 col-lg-4">
+                <div class="icon-container">
+                  <img src="public/images/tut-2.png" alt="tut-1" />
+                </div>
+                <div class="title pb-2">We will help you meet your student</div>
+                <div class="summary">
+                  His exquisite sincerity education shameless ten earnestly
+                  breakfast. Scale began quiet up short wrong in Personal
+                  attention.
+                </div>
+              </div>
+
+              <div class="guide-card col-12 col-md-6 col-lg-4">
+                <div class="icon-container">
+                  <img src="public/images/tut-3.png" alt="tut-1" />
+                </div>
+                <div class="title pb-2">Start tuturing with happiness</div>
+                <div class="summary">
+                  His exquisite sincerity education shameless ten earnestly
+                  breakfast. Scale began quiet up short wrong in Personal
+                  attention.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Info Content (this can be any static content you want to display) -->
+          <div id="student-content" class="tab-panel-guide">
+            <div class="row">
+              <div class="guide-card col-12 col-md-6 col-lg-4">
+                <div class="icon-container">
+                  <img src="public/images/std-01.png" alt="tut-1" />
+                </div>
+                <div class="title pb-2">Start tuturing with happiness</div>
+                <div class="summary">
+                  His exquisite sincerity education shameless ten earnestly
+                  breakfast. Scale began quiet up short wrong in Personal
+                  attention.
+                </div>
+              </div>
+
+              <div class="guide-card col-12 col-md-6 col-lg-4">
+                <div class="icon-container">
+                  <img src="public/images/std-02.png" alt="tut-1" />
+                </div>
+                <div class="title pb-2">Start tuturing with happiness</div>
+                <div class="summary">
+                  His exquisite sincerity education shameless ten earnestly
+                  breakfast. Scale began quiet up short wrong in Personal
+                  attention.
+                </div>
+              </div>
+
+              <div class="guide-card col-12 col-md-6 col-lg-4">
+                <div class="icon-container">
+                  <img src="public/images/std-03.png" alt="tut-1" />
+                </div>
+                <div class="title pb-2">Start tuturing with happiness</div>
+                <div class="summary">
+                  His exquisite sincerity education shameless ten earnestly
+                  breakfast. Scale began quiet up short wrong in Personal
+                  attention.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of tutor section -->
+
+    <!-- teacher section -->
+    <section class="teacher-section">
+      <div class="container">
+        <div class="heading-section">
+          <h2 class="heading" data-aos="fade-up">
+            Recently Joined <span class="underline">Tutor</span>
+          </h2>
+          <div class="view-more" data-aos="fade-up">
+            <a href="#">
+              View all teachers <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme team-carousel">
+          
+          <div class="team-member"  >
+            <img
+              src="/public/images/teacher-1.webp"
+              alt="Parsley Montana"
+              class="team-img"
+            />
+            <div class="team-info">
+              <h3>Douglas Lyphe</h3>
+              <div class="row">
+                <div class="tagline">
+                  <li>Science</li>
+                </div>
+                <div class="tagline">
+                  <li>Math</li>
+                </div>
+                <div class="tagline">
+                  <li>Physics</li>
+                </div>
+                <div class="tagline">
+                  <li>humanities</li>
+                </div>
+              </div>
+              <div class="btn">Book an Order</div>
+            </div>
+          </div>
+
+          
+          <div class="team-member" >
+            <img
+              src="/public/images/teacher-2.webp"
+              alt="Douglas Lyphe"
+              class="team-img"
+            />
+            <div class="team-info">
+              <h3>Douglas Lyphe</h3>
+              <div class="row">
+                <div class="tagline">
+                  <li>Science</li>
+                </div>
+                <div class="tagline">
+                  <li>Math</li>
+                </div>
+                <div class="tagline">
+                  <li>Physics</li>
+                </div>
+                <div class="tagline">
+                  <li>humanities</li>
+                </div>
+              </div>
+              <div class="btn">Book an Order</div>
+            </div>
+          </div>
+
+          
+          <div class="team-member" >
+            <img
+              src="public/images/teacher-3.webp"
+              alt="Douglas Lyphe"
+              class="team-img"
+            />
+            <div class="team-info">
+              <h3>Douglas Lyphe</h3>
+              <div class="row">
+                <div class="tagline">
+                  <li>Science</li>
+                </div>
+                <div class="tagline">
+                  <li>Math</li>
+                </div>
+                <div class="tagline">
+                  <li>Physics</li>
+                </div>
+                <div class="tagline">
+                  <li>humanities</li>
+                </div>
+              </div>
+              <div class="btn">Book an Order</div>
+            </div>
+          </div>
+
+          <div class="team-member" >
+            <img
+              src="/public/images/teacher-1.webp"
+              alt="Parsley Montana"
+              class="team-img"
+            />
+            <div class="team-info">
+              <h3>Douglas Lyphe</h3>
+              <div class="row">
+                <div class="tagline">
+                  <li>Science</li>
+                </div>
+                <div class="tagline">
+                  <li>Math</li>
+                </div>
+                <div class="tagline">
+                  <li>Physics</li>
+                </div>
+                <div class="tagline">
+                  <li>humanities</li>
+                </div>
+              </div>
+              <div class="btn">Book an Order</div>
+            </div>
+          </div>
+
+          <div class="team-member" >
+            <img
+              src="/public/images/teacher-1.webp"
+              alt="Parsley Montana"
+              class="team-img"
+            />
+            <div class="team-info">
+              <h3>Douglas Lyphe</h3>
+              <div class="row">
+                <div class="tagline">
+                  <li>Science</li>
+                </div>
+                <div class="tagline">
+                  <li>Math</li>
+                </div>
+                <div class="tagline">
+                  <li>Physics</li>
+                </div>
+                <div class="tagline">
+                  <li>humanities</li>
+                </div>
+              </div>
+              <div class="btn">Book an Order</div>
+            </div>
+          </div>
+
+          <div class="team-member" >
+            <img
+              src="/public/images/teacher-1.webp"
+              alt="Parsley Montana"
+              class="team-img"
+            />
+            <div class="team-info">
+              <h3>Douglas Lyphe</h3>
+              <div class="row">
+                <div class="tagline">
+                  <li>Science</li>
+                </div>
+                <div class="tagline">
+                  <li>Math</li>
+                </div>
+                <div class="tagline">
+                  <li>Physics</li>
+                </div>
+                <div class="tagline">
+                  <li>humanities</li>
+                </div>
+              </div>
+              <div class="btn">Book an Order</div>
+            </div>
+          </div>
+
+      
+        </div>
+      </div>
+    </section>
+    <!-- end teacher section -->
+
+    <!-- find section -->
+    <div class="find-section">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2 class="heading" data-aos="fade-up"><span class="underline">Find Us on</span></h2>
+        <p class="summary" data-aos="fade-up">
+          Do you want to join our team, call us for your tutor?
+        </p>
+        <div class="btn-container mb-5" data-aos="fade-up">
+          <a href="#" class="login-btn">Call for Tutor</a>
+          <a href="#" class="login-btn">Apply for Tutor</a>
+        </div>
+      </div>
+    </div>
+    <!-- end of find section -->
+
+    <!-- testomonial section -->
+    <section class="testomonial-section">
+      <div class="container">
+        <h2 class="heading" data-aos="fade-up">
+          What <span class="underline">Parent's</span> Say
+        </h2>
+        <div class="owl-carousel owl-theme test-carousel">
+          <!-- Testimonial Item 1 -->
+          <div class="testimonial-item" data-aos="fade-up">
+            <blockquote>
+              <img
+                src="https://codebasket.xyz/template/talim/dark/assets/images/tl-14/quote-icon.png"
+                alt=""
+              />
+              <p>
+                I love that solvency lets us manage everything in one place.
+                It's super helpful to be able to listen to voice samples, upload
+                our own lists, and find quality salespeople that can grow with
+                our team.
+              </p>
+            </blockquote>
+            <div class="person">
+              <img
+                src="/public/images/staff-2.jpg"
+                alt="Lauri Max"
+                class="person-img"
+              />
+              <h3 class="title">Lauri Max</h3>
+              <p class="degisnation">Math Teacher</p>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 2 -->
+          <div class="testimonial-item" data-aos="fade-up">
+            <blockquote>
+              <img
+                src="https://codebasket.xyz/template/talim/dark/assets/images/tl-14/quote-icon.png"
+                alt=""
+              />
+              <p class="test-text">
+                The 360Learning Suite has transformed how we train our team.
+                It's intuitive, scalable, and helps us onboard new members
+                quickly.
+              </p>
+            </blockquote>
+            <div class="person">
+              <img
+                src="/public/images/staff-2.jpg"
+                alt="Alex Johnson"
+                class="person-img"
+              />
+              <h3 class="title">Alex Johnson</h3>
+              <p class="degisnation">Team Lead</p>
+            </div>
+          </div>
+
+          <!-- Add more testimonials here -->
+        </div>
+      </div>
+    </section>
+    <!-- end of testomonial section -->
+
+    <!-- blog section -->
+    <section class="teacher-section">
+      <div class="container">
+        <div class="heading-section">
+          <h2 class="heading" data-aos="fade-up">
+            Latest <span class="underline">News Blogs & Articles</span>
+          </h2>
+          <div class="view-more" data-aos="fade-up">
+            <a href="#">
+              View all blogs <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="blog-card col-12 col-lg-6" data-aos="fade-up">
+            <a href="#" class="img-conainer">
+              <img src="public/images/blog-1.webp" alt="" />
+            </a>
+            <a href="#" class="blog-contains">
+              <div class="date-line">March 24, 2023</div>
+              <div class="title">
+                The Role of LMS in Competency-Based Fostering Development.
+              </div>
+              
+                <span class="view-more">
+                  View all blogs <i class="fa-solid fa-arrow-right"></i
+                ></span>
+                 
+            </a>
+          </div>
+
+          <div class="blog-card col-12 col-lg-6" data-aos="fade-up">
+            <a href="#" class="img-conainer">
+              <img src="public/images/blog-1.webp" alt="" />
+            </a>
+            <a href="#" class="blog-contains">
+              <div class="date-line">March 24, 2023</div>
+              <div class="title">
+                The Role of LMS in Competency-Based Fostering Development.
+              </div>
+              
+                <span class="view-more">
+                  View all blogs <i class="fa-solid fa-arrow-right"></i
+                ></span>
+                 
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end of blog section -->
+
+    <!-- footer -->
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div
+                  class="company-detail postion-relative col-lg-3 col-md-6"
+                  data-aos="fade-up"
+                >
+                  <div class="footer-title">IG Acedemy</div>
+                  <div class="line"></div>
+                  <p class="gray-text">
+                    A small river named Duden flows by their place and supplies it
+                    with the necessary regelialia. It is a paradisematic country, in
+                    which roasted parts of sentences fly into your mouth.
+                  </p>
+                  <div class="social-media d-flex gap-3 align-items-center">
+                    <a href="#"
+                      ><i class="social-icon fa-brands fa-facebook footer-icon"></i
+                    ></a>
+                    <a href="#"
+                      ><i class="social-icon fa-brands fa-instagram footer-icon"></i
+                    ></a>
+                    <a href="#"
+                      ><i class="social-icon fa-brands fa-twitter footer-icon"></i
+                    ></a>
+                    <a href="#"
+                      ><i class="social-icon fa-brands fa-linkedin footer-icon"></i
+                    ></a>
+                  </div>
+                </div>
+      
+                <div
+                  class="quick-links postion-relative col-12 col-lg-3 col-md-6"
+                  data-aos="fade-up"
+                >
+                  <div class="footer-title">Menu</div>
+                  <div class="line"></div>
+                  <ul>
+                    <li class="selected"><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+      
+                <div
+                  class="quick-links postion-relative col-lg-3 col-md-6"
+                  data-aos="fade-up"
+                >
+                  <div class="footer-title">quick-links</div>
+                  <div class="line"></div>
+                  <ul>
+                    <li class="selected"><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+
+                <div
+                  class="contacts postion-relative col-12 col-lg-3 col-md-6"
+                  data-aos="fade-up"
+                >
+                  <div class="footer-title">Have a question</div>
+                  <div class="line"></div>
+                  <div class="row pb-3 align-items-center">
+                    <i class="col-2 footer-icon-contact fa-solid fa-location-dot"></i
+                    ><span class="col-10 footer-contact address"
+                      >203 Fake St. Mountain View, San Francisco, California,
+                      USA</span
+                    >
+                  </div>
+                  <div class="row pb-3 align-items-center">
+                    <i class="col-2 footer-icon-contact fa-solid fa-phone"></i>
+                    <span class="col-10 footer-contact phone">+2 392 3929 210</span>
+                  </div>
+                  <div class="row pb-3 align-items-center">
+                    <i class="col-2 footer-icon-contact fa-solid fa-envelope"></i>
+                    <span class="col-10 footer-contact email">
+                      info@yourdomain.com</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="copyright-section" data-aos="fade-up">
+              <span class="copy"
+                >Copyright © 2024 Goodwill Cleaning | All rights reserved</span
+              >&nbsp; Site by: <a href="#">CyBurning</a>
+            </div>
+          </footer>
+    <!-- end footer -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="public/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="public/js/app.js"></script>
+  </body>
+</html>
